@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(5, 5, 0);
+}
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color:white;
+        
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--white);
+    font-family: 'netflix sans', Times;
+    font-size:40px;
+    text-shadow:4px 2px 8px rgb(247, 11, 11);
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color:#fff;
+}
+
+.ranking{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    }
+
+.ranking img{
+    padding-top: 20px;
+    height: 80%;
+    width: 80%;
+    
+}
+
